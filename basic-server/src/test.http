@@ -1,0 +1,8 @@
+get http://127.0.0.1:3000/
+
+### all items
+get http://127.0.0.1:3000/items
+
+### all item by id
+get http://127.0.0.1:3000/items/2
+
