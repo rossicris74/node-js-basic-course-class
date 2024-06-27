@@ -15,6 +15,11 @@ const itemRoutes = (fastify, options, done) => {
         ));
     });
 
+    fastify.get("/itemsLength", (request, reply) => {
+        const {id} = request.params;
+        reply.send(items.length);
+    });
+
 
     done()
 

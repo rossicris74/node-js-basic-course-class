@@ -6,3 +6,6 @@ get http://127.0.0.1:3000/items
 ### all item by id
 get http://127.0.0.1:3000/items/2
 
+### all items length
+get http://127.0.0.1:3000/itemsLength
+
